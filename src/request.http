@@ -1,0 +1,3 @@
+GET https://rickandmortyapi.com/api/character/ HTTP/1.1
+content-type: application/json
+
