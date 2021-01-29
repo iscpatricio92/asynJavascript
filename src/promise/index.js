@@ -22,7 +22,7 @@ const somethingWillHappen2 = () => {
             setTimeout(() => {
                 res("true")
             }, 2000)
-        } else {
+        } else { 
             const error = new Error('Whooop!')
             rej(error)
         }
